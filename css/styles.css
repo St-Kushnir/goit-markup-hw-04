@@ -350,11 +350,7 @@ color: var(--about-desc-color);
 
 .customers-list {
     display: flex;
-    justify-content: center;
-}
-
-.customers-list-item:not(:nth-child(6n)) {
-    margin-right: 10px;
+    justify-content: space-between;
 }
 
 .customers-list-link {
